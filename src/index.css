@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  height: 100svh;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+:root {
+  /*FONT*/
+  body {
+    font-family: 'Press Start 2P', cursive;
+    font-optical-sizing: auto;
+  }
+
+  /*BRANDING-COLORS*/
+  --pkmn-color1: #1c1b1b;
+  --pkmn-color2: rgb(255, 255, 255);
+  --pkmn-color3: #ffed75;
+  --pkmn-color4: #2d2c2c;
+
+  /*POKEMON-COLORS*/
+  --pkmn-fire: #f3503f;
+  --pkmn-water: #007664;
+  --pkmn-grass: #79977a;
+  --pkmn-electric: #f8d030;
+  --pkmn-bug: #cba437;
+  --pkmn-psichic: #737eb4;
+  --pkmn-normal: #5a5b62;
+
+  /*BACKGROUND COLORS*/
+  --pkmn-first-bg: var(--pkmn-color1);
+  --pkmn-second-bg: var(--pkmn-color2);
+  --pkmn-third-bg: var(--pkmn-color3);
+  --pkmn-forth-bg: var(--pkmn-color4);
+
+  /*TEXT COLORS*/
+  --pkmn-primary-text: rgb(255, 255, 255);
+  --pkmn-secondary-text: var(--pkmn-color3);
+  --pkmn-tertiary-text: var(--pkmn-color1);
+
+  /*BORDER RADIUS*/
+  --pkmn-br: 20px;
+
+  /*SPACING*/
+  --pkmn-margin-xs: 10px;
+  --pkmn-margin-s: 20px;
+  --pkmn-margin-m: 30px;
+  --pkmn-margin-l: 40px;
+  --pkmn-margin-xl: 50px;
+  --pkmn-margin-section: 100px;
+
+  --pkmn-padding-xs: 10px;
+  --pkmn-padding-s: 20px;
+  --pkmn-padding-m: 30px;
+  --pkmn-padding-l: 40px;
+  --pkmn-padding-xl: 50px;
+  --pkmn-padding-section: 100px;
+}
+
+/*FLEX CONTAINER*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

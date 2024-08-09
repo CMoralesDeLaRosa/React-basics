@@ -1,0 +1,43 @@
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pokeball-home {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeball-home > img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: heartbeat 1.5s infinite;
+  z-index: 1;
+}
+
+/*Mediaqueries*/
+
+@media (max-width: 670px) {
+  .pokeball-home {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 450px) {
+  .pokeball-home {
+    width: 60px;
+    height: 60px;
+  }
+}

@@ -1,0 +1,54 @@
+ul {
+  gap: 80px;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: var(--pkmn-primary-text);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+
+a.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.link-home:hover {
+  color: var(--pkmn-water);
+}
+.link-pokemon:hover {
+  color: var(--pkmn-fire);
+}
+.link-about:hover {
+  color: var(--pkmn-electric);
+}
+
+/*Mediaqueries*/
+@media (max-width: 670px) {
+  a {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 535px) {
+  ul {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  ul {
+    flex-direction: column;
+    padding: var(--pkmn-padding-m) 0;
+    gap: 20px;
+  }
+  a {
+    color: var(--pkmn-tertiary-text);
+    font-size: 7px;
+    text-transform: uppercase;
+  }
+}
