@@ -12,7 +12,8 @@
   .section-img-menu {
     position: fixed;
     background-color: var(--pkmn-first-bg);
-    padding: 30px;
+    padding: 20px;
+    width: 100px;
   }
   .article-img-menu {
     top: 25px;
@@ -37,13 +38,14 @@
     left: 0;
     background-color: var(--pkmn-second-bg);
     width: 80px;
-    height: 150px;
+    height: 105px;
     transform: translateX(-100%);
     transition: transform 0.5s ease-in-out;
-    z-index: 1;
+    z-index: 2;
   }
 
   .article-header-hidden.open {
     transform: translateX(0);
   }
 }
+
