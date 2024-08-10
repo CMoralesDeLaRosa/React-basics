@@ -20,6 +20,14 @@
   box-shadow: -2px -4px 76px -10px rgba(255, 255, 255, 0.37);
 }
 
+.card-pokemon:click {
+  scale: 1.1;
+  background-color: var(--pkmn-first-bg);
+  -webkit-box-shadow: -2px -4px 76px -10px rgba(255, 255, 255, 0.37);
+  -moz-box-shadow: -2px -4px 76px -10px rgba(255, 255, 255, 0.37);
+  box-shadow: -2px -4px 76px -10px rgba(255, 255, 255, 0.37);
+}
+
 .card-pokemon h4 {
   font-size: 12px;
   text-transform: uppercase;
