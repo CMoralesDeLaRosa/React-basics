@@ -26,7 +26,7 @@ const Home = () => {
     <section className='home flex-container'>
       <article className='article-home flex-container'>
         <div className='logo-home flex-container'>
-          <img src='/public/assets/Pokemon-logo.png' alt='Pokemon logo' />
+          <img src='/assets/Pokemon-logo.png' alt='Pokemon logo' />
         </div>
         <Description
           text='Know all the Pokémon, their characteristics, and their most hidden moves so you can catch them all!'
