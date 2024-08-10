@@ -62,7 +62,10 @@
     letter-spacing: 2px;
   }
   .title-page p {
+    width: 150px;
     font-size: 9px;
+    text-align: center;
     letter-spacing: 2px;
   }
 }
+
