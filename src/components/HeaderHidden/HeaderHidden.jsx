@@ -13,7 +13,7 @@ const HeaderHidden = () => {
     <section className='section-img-menu'>
       <article className='article-img-menu'>
         <img
-          src='/public/assets/Menu-icon.png'
+          src='/assets/Menu-icon.png'
           alt='menu'
           onClick={toggleMenu}
         />
