@@ -7,7 +7,7 @@ const Pokeball = ({ onClick }) => {
       onClick={onClick}
       style={{ cursor: 'pointer' }}
     >
-      <img src='/public/assets/Pokeball-logo.png' alt='Pokeball logo neón' />
+      <img src='/assets/Pokeball-logo.png' alt='Pokeball logo neón' />
     </div>
   )
 }
